@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': "RGPD_rat",
+    'name': "rgpd_rat",
 
     'summary': """
         Modulo para gestionar los rat's RGPD """,

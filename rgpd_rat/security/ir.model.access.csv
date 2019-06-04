@@ -4,5 +4,5 @@ acces_x_rgpd_medidas,x_rgpd_medidas,model_x_rgpd_medidas,,1,1,1,1
 acces_x_rgpd_opciones,x_rgpd_opciones,model_x_rgpd_opciones,,1,1,1,1
 acces_x_rgpd_grupos,x_rgpd_grupos,model_x_rgpd_grupos,,1,1,1,1
 acces_x_rgpd_rats,x_rgpd_rats,model_x_rgpd_rats,,1,1,1,1
-rgpd_manager, rgpd manager access,model_x_rgpd_legales,RGPD.group_manager,1,1,1,1
-rgpd_user, rgpd user access,model_x_rgpd_legales,RGPD.group_user,1,0,0,0
+rgpd_manager, rgpd manager access,model_x_rgpd_legales,rgpd_rat.group_manager,1,1,1,1
+rgpd_user, rgpd user access,model_x_rgpd_legales,rgpd_rat.group_user,1,0,0,0

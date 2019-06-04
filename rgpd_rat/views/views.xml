@@ -264,7 +264,7 @@
 
          <!-- Top menu item -->
 
-        <menuitem name="RGPD" id="rgpd_menu_root" groups="base.group_user" web_icon="RGPD,static/description/icon.png"
+        <menuitem name="RGPD" id="rgpd_menu_root" groups="base.group_user" web_icon="rgpd_rat,static/description/icon.png"
             sequence="75"/>
         <menuitem name="Legales" id="x_rgpd_legales_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_legales"/>
         <menuitem name="Medidas" id="x_rgpd_medidas_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_medidas" sequence="2"/>
