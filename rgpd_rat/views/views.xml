@@ -264,13 +264,22 @@
 
          <!-- Top menu item -->
 
-        <menuitem name="RGPD" id="rgpd_menu_root" groups="base.group_user" web_icon="rgpd_rat,static/description/icon.png"
+        <!--<menuitem name="RGPD" id="rgpd_menu_root" groups="base.group_user" web_icon="rgpd_rat,static/description/icon.png"
+            sequence="75"/>
+        <menuitem name="Legales" id="x_rgpd_legales_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_legales"/>
+        <menuitem name="Medidas" id="x_rgpd_medidas_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_medidas" sequence="2"/>
+        <menuitem name="Opciones" id="x_rgpd_opciones_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_opciones"/>
+        <menuitem name="Grupos" id="x_rgpd_grupos_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_grupos"/>
+        <menuitem name="Rats" id="x_rgpd_rats_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_rats" sequence="1"/> -->
+
+	<menuitem name="RGPD" id="rgpd_menu_root" groups="base.group_user" web_icon="rgpd_rat,static/description/icon.png"
             sequence="75"/>
         <menuitem name="Legales" id="x_rgpd_legales_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_legales"/>
         <menuitem name="Medidas" id="x_rgpd_medidas_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_medidas" sequence="2"/>
         <menuitem name="Opciones" id="x_rgpd_opciones_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_opciones"/>
         <menuitem name="Grupos" id="x_rgpd_grupos_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_grupos"/>
         <menuitem name="Rats" id="x_rgpd_rats_menu_category" parent="rgpd_menu_root" action="action_x_rgpd_rats" sequence="1"/>
+
 
         <!--<menuitem name="Legales" id="action_x_rgpd_legales_menu" parent="x_rgpd_legales_menu_category" action="action_x_rgpd_legales" sequence="1"/>
         <menuitem name="Medidas" id="action_x_rgpd_medidas_menu" parent="x_rgpd_medidas_menu_category" action="action_x_rgpd_medidas" sequence="2"/>
